@@ -13,3 +13,7 @@ config = {'ts': [
     {'freq_bands': [{'lower': 5, 'upper':45}, {'lower': 45, 'upper': 80}]}
 ]
 }
+
+cfg = {}
+cfg_ts = ['rms', 'peak', 'peak_to_peak', 'skewness', 'kurtosis']
+cfg_fft_freq_peaks = {}

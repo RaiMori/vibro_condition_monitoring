@@ -10,9 +10,9 @@ class FFTVibrationAnalysis:
         self.fs = fs
 
     def fft_peak_val(self, freq):
-        find_peaks()
+        pass
 
-    def fft_harmonics_val(self, freq, num):
+    def fft_harmonics_val(self, freqency, num):
         freqs_list = [f*(num+1) for f in range(num)]
         harmonics = []
         for h in freqs_list:
